@@ -1,0 +1,166 @@
+/*@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');*/
+@font-face{
+    font-family: 'EB Garamond';
+    src: url(EB_Garamond/EBGaramond-VariableFont_wght.ttf);
+}
+html{
+    font-family: 'EB Garamond', serif;
+}
+html.home{
+    background-color: #332E29;
+    color: #c9c8c4;
+    text-align: center;
+}
+html.pages{
+    background-color: #ffffff; /*c9c8c4*/
+    color: #332E29;
+    text-align: left;
+}
+nav.navbar{
+    width: 100%;
+    overflow: auto;
+    margin: 0 auto; /* center */
+}
+nav.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+nav.navbar li{
+    display: inline;
+}
+nav.navbar li a{
+    align-content: center;
+    display: block;
+    display: inline-block;
+    width: 19.79%;
+}
+hr{
+    height: 2px;
+    border: none;
+}
+hr.home{
+    background-color: #c9c8c4;
+}
+hr.pages{
+    background-color: #332E29;
+}
+a{
+    color: #ffffff;
+}
+a.home{
+    color: #332E29;
+}
+a.pages{
+    color: #a76f45;
+}
+h5, h4, h3{
+    color: #a76f45;
+    text-align: center;
+}
+p.elements{
+    font-style: italic;
+    font-weight: bold;
+    color: #a76f45;
+    display: inline-block;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+img.criminal{
+    margin-right: 10%;
+}
+figcaption{
+    text-align: center;
+}
+iframe{
+    display: block;
+    margin: 0 auto;
+}
+ul, ol{
+    list-style-position: inside;
+}
+ul{
+    list-style-type: square;
+}
+
+/* Quiz */
+div.selectQuiz div.selectQuestion{
+    display: inline-block;
+}
+select{
+    opacity: 0.7;
+}
+button{
+    width: 95px;
+    height: 30px;
+    color: #ffffff;
+    background-color: #332E29;
+    border-style: none;
+    vertical-align: top;
+}
+button.quiz{
+    background-color: #a76f45;
+}
+/* --------- */
+
+body table{
+    text-align: center;
+    margin: 0 auto; /* center the table */
+    width: 100%;
+    border-collapse: collapse; /* to select middle border */
+    border-style: hidden; /* hide border edges */
+    table-layout: fixed;
+}
+body table td{
+    border: 1px solid #332E29;
+}
+table.court td{
+    border: none;
+}
+table.court ul, ol{
+    text-align: left;
+}
+table td.select{
+    width: 30%;
+}
+footer table{
+    text-align: center;
+    margin: 0 auto; /* center the table */
+    width: 100%;
+    border-collapse: collapse; /* to select middle border */
+    border-style: hidden; /* hide border edges */
+    table-layout: initial;
+}
+footer.home table td{
+    border: 2px solid #332E29;
+}
+footer.pages table td{
+    border: 2px solid #ffffff;
+}
+footer.home{
+    text-align: center;
+    color: #332E29;
+    background-color: #c9c8c4;
+}
+footer.pages{
+    text-align: center;
+    color: #ffffff;
+    background-color: #332E29;
+} 
+footer ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+div.errorPage{ /* vertically aligning items */
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}

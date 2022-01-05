@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html class="pages" lang="en">
+    <head>
+        <title>The Court</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Haifaa Abushaaban">
+        <meta name="description" content="Canadian Law">
+        <meta name="keywords" content="Law, Crime, Court">
+        <link rel="stylesheet" type="text/css" href="webstyle.css">
+        <script src="webFunction.js"></script>
+    </head>
+    
+    <hr class="pages">
+    <!-- Navigation links to website pages -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="one.html"><img src="images/charterBrown.png" alt="Logo" width="100%"></a></li>
+            <li><a href="two.html"><img src="images/courtBrown.png" alt="Logo" width="100%"></a></li>
+            <li><a href="home.html"><img src="images/logoBrown.png" alt="Logo" width="100%"></a></li>
+            <li><a href="three.html"><img src="images/criminalBrown.png" alt="Logo" width="100%"></a></li>
+            <li><a href="four.html"><img src="images/civilBrown.png" alt="Logo" width="100%"></a></li>
+        </ul>
+    </nav>
+    <hr class="pages">
+
+    <body>
+        <br>
+        <h3>The Court</h3>
+        <h4>Participants in the court</h4>
+        <br><br>
+        <table class="court" cellpadding = "5%" cellspacing = "0">
+            <tr>
+                <td>The Judge
+                    <ul>
+                        <li>Makes decisions on the admissibility of evidence.</li>
+                        <li>Controls events in the courtroom.</li>
+                        <li>Interprets the law.</li>
+                        <li>Instructs the jury on points of law.</li>
+                    </ul>
+                </td>
+                <td>The Witness
+                    <ul>
+                        <li>Give evidence concerning their knowledge of the circumstances surrounding a crime.</li>
+                        <li>Perjury is knowingly making false statements in court while giving evidence.</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>The Defence
+                    <ul>
+                        <li>The Accused or Defendant is the person charged with a crime.</li>
+                        <li>The Defence Counsel is the lawyer who represents the accused.</li>
+                        <li>If the accused pleads not guilty, the Defence tries to show a “reasonable doubt” exists.</li>
+                        <li>If the accused pleads guilty or is found guilty, the Defence recommends an appropriate sentence.</li>
+                    </ul>
+                </td>
+                <td>The Prosecution or Crown
+                    <ul>
+                        <li>The Prosecutor or Crown Counsel is the lawyer representing the government’s interest in investigating and punishing criminal offences.</li>
+                        <li>Presents credible evidence that must show the accused is guilty “beyond a reasonable doubt”.</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>The Jury
+                    <ul>
+                        <li>A group of 12 men and women, chosen by the Crown and Defence Counsel from a pool of ordinary citizens.</li>
+                        <li>Listen to arguments, examine the evidence, follow judge’s instructions about the law.</li>
+                        <li>For eligibility, the juror must be a Canadian citizen, 18 years of age or older, and a resident of the province for at least one year.</li>
+                        <li>A juror is ineligible if they are a politician or work in the justice system.</li>
+                        <li>A potential juror may be exempt for religious reasons, if they show financial hardship (since jury duty is not paid), or if they have served on a jury within the past two years.</li>
+                    </ul>
+                </td>
+                <td>Other Court Personnel
+                    <ul>
+                        <li>Court Clerk
+                            <ul><li>Keeps a record of trial exhibits, administers oaths, announces the beginning and end of the court session.</li></ul>
+                        </li>
+                        <li>Court Reporter
+                            <ul><li>Records verbatim, everything that has been said during the trial (one of the most stressful jobs in the world!).</li></ul>
+                        </li>
+                        <li>The Public
+                            <ul><li>Public cases welcome anyone who wants to watch what happens in their courtrooms.</li></ul>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        </table><br>
+
+        <h4>Positions in the court</h4>
+        <h5>Select where you think the position of the court member is.</h5>
+        <div class="selectQuiz">
+            <table class="court" cellpadding = "5%" cellspacing = "0">
+                <tr>
+                    <td><img src="images/courtPos.png" alt="Superior Court Room" width="80%" height="94%"></td>
+                    <td class="select">
+                        <ol>
+                            <li><div class="selectQuestion">
+                                <select id="ansJudge">
+                                    <option value="blank"></option>
+                                    <option value="judge">Judge</option>
+                                    <option value="jury">Jury</option>
+                                    <option value="prosecution">Prosecution</option>
+                                    <option value="defence">Defence</option>
+                                    <option value="witness">Witness</option>
+                                    <option value="public">Public</option>
+                                </select>
+                                <br>
+                                <button type='button' onclick='selectAnswer1()'>Submit</button>
+                                <span id='result-1'></span>
+                            </div></li>
+                            <li><div class="selectQuestion">
+                                <select id="ansWitness">
+                                    <option value="blank"></option>
+                                    <option value="judge">Judge</option>
+                                    <option value="jury">Jury</option>
+                                    <option value="prosecution">Prosecution</option>
+                                    <option value="defence">Defence</option>
+                                    <option value="witness">Witness</option>
+                                    <option value="public">Public</option>
+                                </select>
+                                <br>
+                                <button type='button' onclick='selectAnswer5()'>Submit</button>
+                                <span id='result-5'></span>
+                            </div></li>
+                            <li><div class="selectQuestion">
+                                <select id="ansDefence">
+                                    <option value="blank"></option>
+                                    <option value="judge">Judge</option>
+                                    <option value="jury">Jury</option>
+                                    <option value="prosecution">Prosecution</option>
+                                    <option value="defence">Defence</option>
+                                    <option value="witness">Witness</option>
+                                    <option value="public">Public</option>
+                                </select>
+                                <br>
+                                <button type='button' onclick='selectAnswer4()'>Submit</button>
+                                <span id='result-4'></span>
+                            </div></li>
+                            <li><div class="selectQuestion">
+                                <select id="ansProsecution">
+                                    <option value="blank"></option>
+                                    <option value="judge">Judge</option>
+                                    <option value="jury">Jury</option>
+                                    <option value="prosecution">Prosecution</option>
+                                    <option value="defence">Defence</option>
+                                    <option value="witness">Witness</option>
+                                    <option value="public">Public</option>
+                                </select>
+                                <br>
+                                <button type='button' onclick='selectAnswer3()'>Submit</button>
+                                <span id='result-3'></span>
+                            </div></li>
+                            <li><div class="selectQuestion">
+                                <select id="ansJury">
+                                    <option value="blank"></option>
+                                    <option value="judge">Judge</option>
+                                    <option value="jury">Jury</option>
+                                    <option value="prosecution">Prosecution</option>
+                                    <option value="defence">Defence</option>
+                                    <option value="witness">Witness</option>
+                                    <option value="public">Public</option>
+                                </select>
+                                <br>
+                                <button type='button' onclick='selectAnswer2()'>Submit</button>
+                                <span id='result-2'></span>
+                            </div></li>
+                            <li><div class="selectQuestion">
+                                <select id="ansPublic">
+                                    <option value="blank"></option>
+                                    <option value="judge">Judge</option>
+                                    <option value="jury">Jury</option>
+                                    <option value="prosecution">Prosecution</option>
+                                    <option value="defence">Defence</option>
+                                    <option value="witness">Witness</option>
+                                    <option value="public">Public</option>
+                                </select>
+                                <br>
+                                <button type='button' onclick='selectAnswer6()'>Submit</button>
+                                <span id='result-6'></span>
+                            </div></li>
+                        </ol>
+                    </td>
+                </tr>
+            </table>
+        </div>       
+    </body>
+
+    <br>
+    <footer class="pages">
+        <table cellpadding = "5%" cellspacing = "0">
+            <tr>
+                <td>
+                    <address>
+                    Contact details<br><br>
+                    <ul>
+                        <li><a href = "https://github.com/abushaah">https://github.com/abushaah</a></li>
+                    </ul>
+                    </address>
+                </td>
+                <td>
+                    Page sources<br><br>
+                    <ul>
+                        <li>Blair, Annice. <i>Law in Action: Understanding Canadian Law</i>. Toronto, ON: Pearson, 2009. Print.</li>
+                        <li>Ontario Ministry of the Attorney General. “Superior Court of Justice SAMPLE Courtroom Layout.” <i>CLEO Connect</i>, 2016. <a href="https://cleoconnect.ca/resource/yourlegalrights/superior-court-of-justice-sample-courtroom-layout/">cleoconnect.ca</a>.</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </footer>
+</html>
